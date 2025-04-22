@@ -1,0 +1,139 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    padding:  0 .5em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col-span-3 a img{
+    width: 150px;
+    height: 150px;
+}
+
+.col-span-7{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrito img{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.menu {
+    text-transform: uppercase;
+}
+
+.menu a {
+    padding: .4em .8em;
+    margin-left: .2em;
+    font-size: .9em;
+    border-radius: .25em;
+}
+
+.link{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.p-4{
+    cursor: pointer;
+}
+.menu a:hover,
+.menu a.selected {
+    background: #6043b2;
+    color: #fff;
+}
+
+.mision{
+    font-size: 25px;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.color{
+    margin: 0 11.5rem;
+    background-color: #6043b2!important;
+    border-radius: 10px;
+    color: #fff;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.textblanco{
+    color: #fff!important;
+}
+.nombre{
+    font-size: 20px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background: #6043b2;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.title {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: .5em;
+}
+
+.subtitle {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: .5em;
+
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: wheat;
+    color: #6043b2;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social img {
+    width: 2em;
+    margin-right: .5em;
+}
+
+.logo {
+    width: 6em;
+}
